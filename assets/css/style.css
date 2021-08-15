@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+  scroll-behavior: smooth;
+  background-color: #e5e5e5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.model img {
+  height: 243px;
+  width: 243px;
+  left: 760px;
+  top: 210px;
+  border-radius: 50%;
+  background: #edf7fa;
+}
+
+.content {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-text {
+  width: 500px;
+}
+
+.main-text h1 {
+  height: 105px;
+  width: 506px;
+  left: 148px;
+  top: 228px;
+  border-radius: nullpx;
+  color: #21243d;
+}
+
+.main-text p {
+  color: #21243d;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  height: 66px;
+  width: 497px;
+  left: 148px;
+  top: 373px;
+  border-radius: nullpx;
+}
+
+.main {
+  width: 90%;
+}
+
+.container {
+  background-color: rgb(224, 250, 250);
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  align-items: flex-start;
+  width: 100%;
+}
+
+.contact-heading {
+  line-height: 22px;
+  width: 91px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  color: #136223;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+}
+
+.education-box {
+  font-size: 14px;
+  height: 17px;
+  top: 0px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #000;
+}
+
+.education-heading {
+  line-height: 22px;
+  width: 91px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+  color: #136223;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+}
+
+.icon-sosmed {
+  width: 1152px;
+  height: 182px;
+  background-color: #fff;
+  bottom: 0%;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  align-items: center;
+}
+
+#project {
+}
+
+footer .icon-sosmed {
+  float: center;
+}
